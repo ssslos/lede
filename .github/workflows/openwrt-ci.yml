@@ -5,6 +5,7 @@
 #
 # Copyright (C) 2020 KFERMercer
 #
+# Build firmware for Phicomm K3 for your own use
 name: OpenWrt-CI
 
 on:
