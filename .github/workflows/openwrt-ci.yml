@@ -55,7 +55,7 @@ jobs:
           touch ./.config
           cat >> .config <<EOF
           #
-          # ========================固件定制部分========================
+          # ========================Firmware customization part========================
           #
           CONFIG_TARGET_bcm53xx=y
           CONFIG_TARGET_bcm53xx_generic=y
@@ -185,7 +185,7 @@ jobs:
           CONFIG_PCRE2_JIT_ENABLED=y
           # CONFIG_PACKAGE_kmod-inet-diag is not set
           #
-          # ========================固件定制部分结束========================
+          # ===================End of firmware customization section===================
           #
           EOF
           sed -i 's/^[ \t]*//g' ./.config
